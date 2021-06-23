@@ -1,5 +1,7 @@
 package model;
 
+//artista
+
 public class Artista{
 	
 	private int    id_artista;
