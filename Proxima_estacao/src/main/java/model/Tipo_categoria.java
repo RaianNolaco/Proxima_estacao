@@ -6,7 +6,20 @@ public class TipoCategoria{
 	private String nome_categoria;
 	
 	
-
+	
+	
+	public TipoCategoria() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public TipoCategoria(int id_tipo_categoria, String nome_categoria) {
+		super();
+		this.id_tipo_categoria = id_tipo_categoria;
+		this.nome_categoria = nome_categoria;
+	}
+	
+	//get e set
 	
 	public int getId_tipo_categoria() {
 		return id_tipo_categoria;
