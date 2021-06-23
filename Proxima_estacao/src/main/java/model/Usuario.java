@@ -4,9 +4,6 @@ import java.util.Date;
 
 public class Usuario {
 	
-	//pc teste
-	//pc
-	
 	private int    idUsuario;
 	private String nomeUsuario;
 	private String sobrenomeUsuario;
