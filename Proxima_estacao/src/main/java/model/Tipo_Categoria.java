@@ -1,6 +1,6 @@
 package model;
 
-public class TipoCategoria{
+public class Tipo_Categoria{
 	
 	private int id_tipo_categoria;
 	private String nome_categoria;
@@ -8,12 +8,12 @@ public class TipoCategoria{
 	
 	
 	
-	public TipoCategoria() {
+	public Tipo_Categoria() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
-	public TipoCategoria(int id_tipo_categoria, String nome_categoria) {
+	public Tipo_Categoria(int id_tipo_categoria, String nome_categoria) {
 		super();
 		this.id_tipo_categoria = id_tipo_categoria;
 		this.nome_categoria = nome_categoria;
