@@ -1,12 +1,12 @@
+
 package model.beans;
 
 public class Artista{
-	
 	private int    id_artista;
 	private String descricao;
 	private int    id_usuario; 
 	private String rede_social;
-	
+
 	public Artista(int id_artista, String descricao, int id_usuario, String rede_social) {
 		super();
 		this.id_artista = id_artista;
